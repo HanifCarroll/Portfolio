@@ -1,0 +1,71 @@
+.darkbg{
+	background-color: #d3d3a7;
+}
+
+body {
+	background-color: white;
+	height: 100vh;
+	padding-top: 40px;
+}
+
+#aboutme {
+	padding-top: 6em;
+}
+
+#photo {
+	border-radius: 50%;
+  	border: 1px solid black;
+  	height: auto;
+  	margin-left: 4em;
+  	width:250px;   	
+  	margin-top: 2em;
+}
+
+.portfolioEl {
+  display: inline;
+  width: 200px; 
+  height: 200px;
+  border-radius: 20%;
+  border: 2px solid black;
+  margin-bottom: 1em;
+  margin-top: 3em;
+}
+.smalltxt {
+    font-size: 12px;
+}
+#contactbar p {
+	background: #333;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+#contactbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+#contactbar li{
+  display: inline;
+  margin: 0px ;
+  font-size: 16px;
+}
+#contactbar li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	
+

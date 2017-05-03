@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hanif's Webpage</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+	    <div class="container">
+	      	<div class="navbar-header">
+		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		        </button>
+
+		        <a href="" class="navbar-brand">HC</a> 
+		    </div> <!-- End of navbar header -->
+	      	<div class="collapse navbar-collapse" id="navbar-collapse">
+		      	<ul class="nav navbar-nav">
+		      		<li><a href="#home">Home</a>
+		      		<li><a href="#about">About Me</a>
+			        <li><a href="#portfolio">Portfolio</a>  
+			        <li><a href="#contact">Contact</a> 
+			    </ul>
+	      	</div>
+	   </div> <!-- End of navbar -->
+	</nav>
+	<section id="home">
+	<div class="jumbotron">
+		<div class="container text-center">
+		<h1>Hanif's Portfolio</h1>
+		<p>A collection of my work to-date, and a little about myself.</p>
+		</div>
+	</div> <!-- End jumbotron -->
+	</section> <!-- End of 'Home'-->
+	<section id="about">
+	<div class="container">		
+		<div class="page-header">
+			<h2>About Me</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-8" id="aboutme">
+				  <p>
+				    I started my journey into the world of coding on March 19th, 2017.   I spent hours that day reading about different languages, what they were used for, and their relative ease of use for beginners.  After a lot of deliberation, I came to choose Python, and I absolutely loved it!
+				  </p>
+				  <p>
+				    3 weeks went by, and I was feeling fairly comfortable with the basics of the language: I could write loops and understand how they work, how to read and write from files, webscraping, etc.  However, I didn't see this as being my calling, my final goal; at least not for the time being.  Being satisfied with knowing enough for the time being to make timesaving scripts for my personal use, I looked to web design, and I saw so many incredible projects being made with stunning visuals; all this really spoke to me.  This is what I wanted to be a part of.
+				  </p>
+				  <p>
+				     Later that week I joined FreeCodeCamp and I've been making my way through the curriculum there.  I aim to spend a lot of time studying this art so that I can get started on a career that I can look forward to waking up every morning for!
+				 </p>
+			</div>
+			<div class="col-md-4">
+				<img id="photo" src="https://i.imgur.com/LuFLBRV.jpg" class="img-responsive" alt="What a smile!">
+			</div>
+		</div>
+	</div>
+	<section id="portfolio">
+		<div class="container">
+			<div class="page-header">
+				<h2>My Portfolio</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+				<a href="https://newbiex2.github.io/google-homepage/" target="_blank"><img class="portfolioEl"  src="assets/googleproject.PNG"></a>
+				<p>Stylistically Recreate Google.com</p>
+				</div>
+				<div class="col-md-4">
+				<a href="https://codepen.io/NewbieX2/full/bWVLEm/" target="_blank"><img class="portfolioEl"  src="assets/fcctribute.png"></a>
+				<p>freeCodeCamp Tribute Project</p>
+				</div>
+				<div class="col-md-4">
+				<a href="#"><img class="portfolioEl"  src="assets/placeholder.png"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<div class="page-header">
+				<h2>Contact Me</h2><p class="smalltxt">Not yet functional...give me some time to learn how to set it up :)</p>
+			</div> <!-- End of contact header -->
+		<div class="row">
+			<div class="col-md-4">
+				<p>Send me a message!  I will always respond within 24 hours.</p>
+			</div>
+			<div class="col-md-8"> <!-- Start of contact me forms -->
+				<form action="" class="form-horizontal">
+              <div class="form-group">
+                <label for="user-name" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-name">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="user-email" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-email">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="user-message" class="col-lg-2 control-label">Message</label>
+                <div class="col-lg-10">
+                  <textarea name="user-message" id="user-message" class="form-control" 
+                  cols="20" rows="10"></textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+			</div>	<!-- End of contact me forms -->
+		</div>
+	</section> <!-- End of 'Contact'-->
+
+	<section id="contactbar">
+		<p>CONTACT ME ON</p>
+			<ul>
+	      <li><a href="https://www.facebook.com/NeifTheMan">Facebook</a></li>
+	    <li><a href="https://www.freecodecamp.com/newbiex2">freeCodeCamp</a></li>
+	    <li><a href="mailto:HCarrollUSF@gmail.com">Email</a></li>
+	    <li><a href="https://www.linkedin.com/in/hanif-carroll-b8129072/">LinkedIn</a></li>
+	</ul>
+
+	</section>
+	 <script
+	 src="https://code.jquery.com/jquery-3.2.1.min.js"
+	 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 crossorigin="anonymous"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+<footer>
+	&copy; Hanif Carroll 2017
+</footer>
+
+</html>
